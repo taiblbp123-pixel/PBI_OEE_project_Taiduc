@@ -25,19 +25,14 @@ This project focuses on developing a comprehensive OEE dashboard to evaluate and
 
 - **Questions to answer**
     - **Core Questions** : “Where is time lost, why is it lost, and what should we fix first?”
+    - **Detail Questions**: below in the table:
 
-    - **Group 1 "Overall": Measure and decompose OEE**
-        - What is the current OEE % across machines and shifts?
-        - Which component is the dominant loss driver to OEE%? 
-    
-    - **Group 2 "Time Usage Decomposition": Identify top loss drivers** 
-        - Which machine contributes most to downtime (availability loss)/ performance loss (slow cycles)/ quality loss (defects)?
-        - What are the main causes of downtime and production losses?
-        - Which machines & shifts have best and worst time utilization (full productive time)?
 
-    - **Group 3 "Reliability": Evaluate machine performance reliability**
-        - Which machines have the highest MTBF (most reliable)?
-        - Which machines have the lowest MTTR (fastest recovery)?
+| Group | Description | Questions to Answer |
+|---|---|---|
+| **Overall** | Measure and decompose OEE | What is the current OEE % across machines and shifts?<br>Which component is the dominant loss driver to OEE%? |
+| **Time Usage Decomposition** | Identify top loss drivers | Which machine contributes most to downtime (availability loss)/ performance loss (slow cycles)/ quality loss (defects)?<br>What are the main causes of downtime and production losses?<br>Which machines & shifts have best and worst time utilization (full productive time)? |
+| **Reliability** | Evaluate machine performance reliability | Which machines have the highest MTBF (most reliable)?<br>Which machines have the lowest MTTR (fastest recovery)? |
 
     
 
@@ -70,16 +65,16 @@ The OEE dashboard consists of multiple interactive views:
 - **HomePage** - Overview and main dashboard view
 ![HomePage](docs/gif/HomePage.gif)
 
-- **TimeUsage.gif** - Time utilization breakdown analysis
+- **TimeUsage** - Time utilization breakdown analysis
 ![TimeUsage](docs/gif/TimeUsage.gif)
 
-- **SpeedLoss.gif** - Performance loss and cycle time analysis
+- **SpeedLoss** - Performance loss and cycle time analysis
 ![SpeedLoss](docs/gif/SpeedLoss.gif)
 
-- **Downtime.gif** - Downtime events and causes analysis
+- **Downtime** - Downtime events and causes analysis
 ![Downtime](docs/gif/Downtime.gif)
 
-- **Details.gif** - Detailed machine performance metrics
+- **Details** - Detailed machine performance metrics
 ![Details](docs/gif/Details.gif)
 
 
